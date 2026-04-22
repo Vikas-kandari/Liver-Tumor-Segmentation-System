@@ -1,4 +1,4 @@
-# 🫀 Liver Tumor Segmentation System Using DeepLabV3+
+#  Liver Tumor Segmentation System Using DeepLabV3+
 
 ## 🌐 Live Web App
 
