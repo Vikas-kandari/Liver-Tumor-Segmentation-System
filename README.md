@@ -1,5 +1,9 @@
 # 🫀 Liver Tumor Segmentation System Using DeepLabV3+
 
+## 🌐 Live Web App
+
+👉 [Open Live Demo](https://liver-tumor-segmentation-system.streamlit.app)
+
 AI-powered medical image segmentation system for automatic **Liver Region** and **Tumor Region** detection from CT scan images using **DeepLabV3+ with ResNet34 backbone**.
 
 This project provides an end-to-end pipeline including:
@@ -13,7 +17,7 @@ This project provides an end-to-end pipeline including:
 
 ---
 
-# 📷 Application 
+# 📷 Application
 
 <p align="center">
   <img src="assets/result.png" width="100%">
