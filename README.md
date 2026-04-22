@@ -13,6 +13,14 @@ This project provides an end-to-end pipeline including:
 
 ---
 
+# 📷 Application 
+
+<p align="center">
+  <img src="assets/result.png" width="100%">
+</p>
+
+---
+
 # 📌 Project Overview
 
 Liver cancer and tumor diagnosis from CT imaging is time-consuming and requires expert radiologists.  
@@ -29,11 +37,13 @@ Using semantic segmentation, the model highlights infected regions for faster cl
 # 🚀 Key Features
 
 ### 🧠 Deep Learning Model
+
 - DeepLabV3+
 - ResNet34 Encoder
 - Multi-class Segmentation (3 Classes)
 
 ### 🖥️ Web Application (Streamlit UI)
+
 - Upload CT scan image
 - Automatic model loading
 - Liver mask generation
@@ -43,6 +53,7 @@ Using semantic segmentation, the model highlights infected regions for faster cl
 - Download results
 
 ### 📊 Analytics
+
 - Tumor pixel area
 - Tumor percentage
 - Class distribution chart
@@ -68,10 +79,12 @@ Using semantic segmentation, the model highlights infected regions for faster cl
 
 ```bash
 Liver-Tumor-Segmentation-System/
-│── models/
-│   └── liver_best_model.pth
+│── assets/
+│   └── result.png
 │
 │── src/
+│   ├── models/
+│   │   └── liver_best_model.pth
 │   ├── app.py
 │   ├── train.ipynb
 │   ├── predict.ipynb
@@ -80,9 +93,6 @@ Liver-Tumor-Segmentation-System/
 │   └── Preprocess_3D_To_2D.ipynb
 │
 │── processed_data/
-│   ├── train/
-│   ├── val/
-│   └── test/
-│
+│── Liver_Dataset/
 │── requirements.txt
 │── README.md
