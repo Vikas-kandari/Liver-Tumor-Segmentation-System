@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Model Cache
+.cache/
+
+# Temporary
+temp/
+tmp/
+
+# Large generated outputs
+outputs/
+reports/
+
+# =========================
+# DATASETS (IGNORE)
+# =========================
+Liver_Dataset/
+processed_data/
+processed_data.zip
+
+# Optional extra data files
+*.csv
+*.h5
+*.npz
+
+# Keep model file upload allowed
+# models/
